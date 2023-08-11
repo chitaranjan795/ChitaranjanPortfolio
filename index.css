@@ -395,7 +395,7 @@ nav {
 
 @media only screen and (max-width: 1300px) {
   .imgDiv {
-    background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.329)), url('img/pexels-anete-lusina-5240544.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.329)), url('img/mobimg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
