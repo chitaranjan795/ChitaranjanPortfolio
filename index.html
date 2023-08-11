@@ -39,8 +39,6 @@
         </nav>
         <!-- ____________________ Navigation section End ____________________ -->
 
-
-
         <!-- ____________________ Banner section start ____________________ -->
         <section class="container-fluid" id="banner">
             <div class="container banner-container" data-aos="fade-up">
@@ -51,13 +49,11 @@
                         style="color: greenyellow; text-shadow: 0 0 5px black; font-weight: bold;">Frontend Web
                         Developer</span></h1>
                 <button id="bannerContact"><a href="#"><span></span>Contact</a></button>
-                <button><a href="DOCS/Avinash-Resume .pdf" target="_blank"><span></span>Resume</a></button>
+                <button><a href="DOCS/chitaranjan-Resume.pdf" target="_blank"><span></span>Resume</a></button>
                 <button><a href="DOCS/certificate.jpeg" target="_blank"><span></span>Certificate</a></button>
             </div>
         </section>
         <!-- ____________________ Banner section end ____________________-->
-
-
 
         <!-- ____________________ About section start ____________________ -->
         <section class="container-fluid" id="about-section">
@@ -106,32 +102,32 @@
         </section>
         <!-- ____________________ About section end ____________________ -->
 
-
-
         <!-- ____________________ Portfolio section start ____________________ -->
         <section class="container-fluid" id="Portfolio-section">
             <div class="container Portfolio-container">
                 <div class="row first-row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-section" data-aos="fade-right">
-                        <a href="https://chitaranjan795.github.io/odisha/"> <img src="img/odisha.png" class="img-responsive" alt="Odisha Project"></a>
+                        <a href="https://chitaranjan795.github.io/odisha/"> <img src="img/odisha.png"
+                                class="img-responsive" alt="Odisha Project"></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-section" data-aos="fade-left">
-                        <a href="https://chitaranjan795.github.io/Travel/"> <img src="img/travel.png" class="img-responsive" alt="Travel Project"></a>
+                        <a href="https://chitaranjan795.github.io/Travel/"> <img src="img/travel.png"
+                                class="img-responsive" alt="Travel Project"></a>
                     </div>
                 </div>
                 <div class="row second-row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-section" data-aos="fade-right">
-                        <a href="https://chitaranjan795.github.io/home/"> <img src="img/home.png" class="img-responsive"alt="Home Project"></a>
+                        <a href="https://chitaranjan795.github.io/home/"> <img src="img/home.png" class="img-responsive"
+                                alt="Home Project"></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-section" data-aos="fade-left">
-                        <a href="https://chitaranjan795.github.io/fitnes/"> <img src="img/fitness.png" class="img-responsive" alt="Fitness Project"></a>
+                        <a href="https://chitaranjan795.github.io/fitnes/"> <img src="img/fitness.png"
+                                class="img-responsive" alt="Fitness Project"></a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- ____________________ Portfolio section end ____________________-->
-
-
 
         <!-- ____________________ Contact section start ____________________ -->
         <section class="container-fluid" id="footer-section">
@@ -151,19 +147,18 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 right-footer">
                         <div class="contact-links">
-                            <a href="#"><span class="fa fa-twitter T"></span></a>
-                            <a href="#"><span class="fa fa-quora Q"></span></a>
-                            <a href="#"><span class="fa fa-linkedin L"></span></a>
+                            <a href="https://twitter.com/Chitaranjan795"><span class="fa fa-twitter T"></span></a>
+                            <a href="https://www.quora.com/profile/Chittaranjan-Maharana-9"><span
+                                    class="fa fa-quora Q"></span></a>
+                            <a href="https://www.linkedin.com/in/chitaranjan-maharana-1b5506271/"><span
+                                    class="fa fa-linkedin L"></span></a>
                             <a href="https://github.com/chitaranjan795"><span class="fa fa-github G"></span></a>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
         <!-- ____________________ Contact section end ____________________-->
-
 
         <div class="video">
             <video autoplay muted loop id="myVideo">
@@ -172,14 +167,9 @@
                 <div class="wraper"></div>
             </video>
             <div class="imgDiv">
-                
             </div>
-
         </div>
-
     </main>
-
-
 
     <script>
 
@@ -187,7 +177,6 @@
             offset: 170,
             duration: 1500
         });
-
 
         $('.hamburger').click(function () {
             $('#list').slideToggle();
@@ -197,12 +186,14 @@
         let About = document.getElementById('About');
         let Portfolio = document.getElementById('Portfolio');
         let Contact = document.getElementById('Contact');
+        const list = document.getElementById('list');
 
         $('#home').click(function () {
             $('#banner').fadeIn(1000);
             $('#about-section').hide();
             $('#Portfolio-section').hide();
             $('#footer-section').hide();
+
 
             home.style.background = "rgba(163, 115, 88, 0.534)";
             home.style.color = "rgb(255, 217, 0)";

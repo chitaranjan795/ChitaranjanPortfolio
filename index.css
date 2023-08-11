@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Dancing+Script:wght@700&family=Josefin+Sans:wght@600&family=Kumbh+Sans:wght@300&family=Nova+Square&family=Quicksand&family=Roboto&family=Roboto+Slab:wght@500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Dancing+Script:wght@700&family=Josefin+Sans:wght@600&family=Kumbh+Sans:wght@300&family=Nova+Square&family=Poppins:wght@300&family=Quicksand&family=Roboto&family=Roboto+Slab:wght@500;900&display=swap');
 
-  * {
+* {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
@@ -15,11 +15,13 @@ body {
   overflow-x: hidden;
   padding: 0%;
 }
+
 nav {
   /* background-color: greenyellow; */
   display: flex;
 }
-#navigation{
+
+#navigation {
   padding: 15px 5px 15px 15px;
 }
 
@@ -30,7 +32,7 @@ nav {
   justify-content: space-between;
 }
 
-.nav-container h1{
+.nav-container h1 {
   margin: 0%;
   padding: 5px 10px 5px 0;
   text-decoration: none;
@@ -48,9 +50,11 @@ nav {
   margin: 0%;
   /* padding: ; */
 }
-#list li{
+
+#list li {
   padding: 10px 1px;
 }
+
 #list li a {
   padding: 10px 15px;
   text-decoration: none;
@@ -85,7 +89,7 @@ nav {
 }
 
 /* ____________ NAVIGATION END ____________ */
-#main{
+#main {
   width: 100vw;
   height: 100vh;
   background-color: #00000060;
@@ -105,6 +109,7 @@ nav {
   text-align: center;
   color: #fff;
 }
+
 #banner .banner-container h2 {
   padding: 0 0 8px 0;
   font-size: 4rem;
@@ -112,9 +117,11 @@ nav {
   text-shadow: 0 0 7px rgb(0, 0, 0);
   font-family: 'Quicksand', sans-serif
 }
-#banner .banner-container h2 span{
+
+#banner .banner-container h2 span {
   font-weight: 400;
 }
+
 #banner .banner-container h1 {
   overflow: hidden;
   font-size: 4.2rem;
@@ -123,8 +130,9 @@ nav {
   text-shadow: 0 0 7px rgb(0, 0, 0);
   font-family: 'Quicksand', sans-serif;
 }
-#banner .banner-container button{
-  width:fit-content;
+
+#banner .banner-container button {
+  width: fit-content;
   padding: 5px 10px;
   background-color: transparent;
   border: 2px dashed burlywood;
@@ -135,13 +143,15 @@ nav {
   letter-spacing: 1.5px;
   transition: all .5s;
 }
-#banner .banner-container button:hover{
+
+#banner .banner-container button:hover {
   background-color: rgba(163, 115, 88, 0.719);
   transition: all .4s;
   color: rgb(255, 217, 0);
   border-radius: 20px;
 }
-#banner .banner-container button a{
+
+#banner .banner-container button a {
   text-decoration: none;
   font-size: 1.5rem;
   color: rgb(233, 197, 120);
@@ -150,48 +160,50 @@ nav {
   font-family: 'Quicksand', sans-serif;
 
 }
+
 /* ____________ Banner section end ____________ */
 
-
 /* ____________ About section Start ____________ */
-#about-section{
+#about-section {
   display: none;
   padding: 40px 0 70px 0;
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 20px black;
 }
-#about-section .about-container .article-section h2{
+
+#about-section .about-container .article-section h2 {
   margin-top: 0%;
   color: #f7dbb8;
   border-bottom: 1px dotted #fff;
   display: inline-block;
   padding: 0 0 5px 0;
 }
-#about-section .about-container .article-section p{
+
+#about-section .about-container .article-section p {
   font-size: 1.8rem;
   text-shadow: 0 0 5px black;
   color: burlywood;
   letter-spacing: 1px;
 }
-#about-section .about-container .article-section p a{
+
+#about-section .about-container .article-section p a {
   color: rgb(173, 182, 51);
-  border-bottom: 1px solid rgb(173, 182, 51);
 }
-#about-section .about-container .article-section p a:hover{
-  border-bottom: 0px solid rgb(173, 182, 51);
-  text-decoration: none;
-}
-#about-section .about-container .article-section h3{
+
+#about-section .about-container .article-section h3 {
   color: #f7dbb8;
   border-bottom: 1px dotted #fff;
   display: inline-block;
   margin-top: 5px;
+  padding: 5px 0;
 }
-#about-section .about-container .article-section ul{
+
+#about-section .about-container .article-section ul {
   display: flex;
   gap: 10px;
 }
-#about-section .about-container .article-section ul li{
+
+#about-section .about-container .article-section ul li {
   font-size: 1.9rem;
   color: #f7dbb8;
   padding: 5px 10px;
@@ -200,74 +212,81 @@ nav {
   outline: transparent;
   margin-left: 7px;
 }
-/* ____________ About section End ____________ */
 
+/* ____________ About section End ____________ */
 
 /* ____________ Portfolio section Start ____________ */
 
-#Portfolio-section{
+#Portfolio-section {
   background-color: #fed12f00;
   padding-bottom: 50px;
   padding: 20px 0;
   display: none;
 }
-#Portfolio-section .Portfolio-container .second-row{
+
+#Portfolio-section .Portfolio-container .second-row {
   margin-top: 25px;
 }
+
 #Portfolio-section .Portfolio-container .first-row .img-section,
 #Portfolio-section .Portfolio-container .second-row .img-section {
   overflow: hidden;
 }
+
 #Portfolio-section .Portfolio-container .first-row .img-section:nth-child(1),
-#Portfolio-section .Portfolio-container .second-row .img-section:nth-child(1){
+#Portfolio-section .Portfolio-container .second-row .img-section:nth-child(1) {
   padding-left: 0%;
 }
+
 #Portfolio-section .Portfolio-container .first-row .img-section:nth-child(2),
-#Portfolio-section .Portfolio-container .second-row .img-section:nth-child(2){
+#Portfolio-section .Portfolio-container .second-row .img-section:nth-child(2) {
   padding-right: 0%;
 }
+
 #Portfolio-section .Portfolio-container .first-row .img-section a img,
-#Portfolio-section .Portfolio-container .second-row .img-section a img{
+#Portfolio-section .Portfolio-container .second-row .img-section a img {
   transition: all 1s;
 }
+
 #Portfolio-section .Portfolio-container .first-row .img-section a img:hover,
 #Portfolio-section .Portfolio-container .second-row .img-section a img:hover {
   transform: scale(1.1);
   transition: all .5s;
 }
 
-
 /* ____________ Portfolio section End ____________ */
-
-
-
 /* ____________ footer section start ____________ */
 
-#footer-section{
+#footer-section {
   background-color: #00000075;
   padding: 50px 0;
   display: none;
 }
-#footer-section .footer-container .contain-row h3{
+
+#footer-section .footer-container .contain-row h3 {
   text-align: center;
   color: burlywood;
   font-size: 3rem;
   margin-bottom: 50px;
   padding: 10px 0;
 }
-#footer-section .footer-container .contain-row .left-footer{
-  color: #f7dbb8 ;
+
+#footer-section .footer-container .contain-row .left-footer {
+  color: #f7dbb8;
   padding: 40px 0;
   border-right: 1px solid rgba(255, 255, 255, 0.377);
 }
-#footer-section .footer-container .contain-row .left-footer .cont{
+
+#footer-section .footer-container .contain-row .left-footer .cont {
   display: flex;
   align-items: center;
 }
-#footer-section .footer-container .contain-row .left-footer p:nth-child(2){
+
+#footer-section .footer-container .contain-row .left-footer p:nth-child(2) {
   margin-left: 20px;
 }
-#footer-section .footer-container .contain-row .left-footer p span{
+
+#footer-section .footer-container .contain-row .left-footer p span {
   color: #fff;
   border-radius: 50%;
   padding: 15px;
@@ -275,29 +294,24 @@ nav {
   font-size: 1.4rem;
   display: inline-block;
 }
-#footer-section .footer-container .contain-row .left-footer p{
+
+#footer-section .footer-container .contain-row .left-footer p {
   font-size: 1.8rem;
 }
-#footer-section .footer-container .contain-row .left-footer .mail{
+
+#footer-section .footer-container .contain-row .left-footer .mail {
   margin-top: 20px;
 }
 
-
-
-
-
-
-
-
-
-#footer-section .footer-container .contain-row .right-footer{
+#footer-section .footer-container .contain-row .right-footer {
   padding: 40px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 7.3% 0;
 }
-#footer-section .footer-container .contain-row .right-footer .contact-links{
+
+#footer-section .footer-container .contain-row .right-footer .contact-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -305,72 +319,60 @@ nav {
   height: 100%;
   width: 70%;
 }
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a span{
+
+#footer-section .footer-container .contain-row .right-footer .contact-links a span {
   padding: 15px;
   color: rgb(0, 0, 0);
   border-radius: 50%;
   font-size: 1.5rem;
   background-color: #fff;
 }
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a .T{
+
+#footer-section .footer-container .contain-row .right-footer .contact-links a .T {
   color: #ffffff;
   background-color: #00acee;
   transition: all .2s;
 }
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a .T:hover{
+
+#footer-section .footer-container .contain-row .right-footer .contact-links a .T:hover {
   color: #00acee;
   background-color: #fff;
 }
 
 
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a .Q{
+#footer-section .footer-container .contain-row .right-footer .contact-links a .Q {
   color: #fff;
   background-color: #B92B27;
-    transition: all .2s;
+  transition: all .2s;
 }
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a .Q:hover{
+
+#footer-section .footer-container .contain-row .right-footer .contact-links a .Q:hover {
   color: #B92B27;
   background-color: #fff;
 }
 
 
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a .L{
+#footer-section .footer-container .contain-row .right-footer .contact-links a .L {
   color: #ffffff;
   background-color: #0A66C2;
-    transition: all .2s;
+  transition: all .2s;
 }
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a .L:hover{
+
+#footer-section .footer-container .contain-row .right-footer .contact-links a .L:hover {
   color: #0A66C2;
   background-color: #fff;
 }
 
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a .G{
+#footer-section .footer-container .contain-row .right-footer .contact-links a .G {
   color: #333;
   background-color: #ffffff;
-    transition: all .2s;
+  transition: all .2s;
 }
-#footer-section .footer-container .contain-row .right-footer 
-.contact-links a .G:hover{
+
+#footer-section .footer-container .contain-row .right-footer .contact-links a .G:hover {
   color: #ffffff;
   background-color: #333;
 }
-
-
-
-
-
-
-
-
-
 
 /* ____________  footer section End ____________ */
 
@@ -391,43 +393,19 @@ nav {
   transform: scale(1.2);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 1300px) {
-  .imgDiv{
-    background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.329) ), url('img/pexels-anete-lusina-5240544.jpg');
+  .imgDiv {
+    background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.329)), url('img/pexels-anete-lusina-5240544.jpg');
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     transform: scale(1.2);
   }
-  #myVideo{
+
+  #myVideo {
     display: none;
   }
 }
-
 
 @media only screen and (max-width:768px) {
   html {
@@ -438,11 +416,12 @@ nav {
     margin-top: 0px;
     position: relative;
   }
-#navigation{
-  padding: 10px 10px 10px 10px;
-}
 
-#list {
+  #navigation {
+    padding: 10px 10px 10px 10px;
+  }
+
+  #list {
     width: 40vw;
     background-color: rgb(255, 255, 255);
     display: block;
@@ -451,58 +430,63 @@ nav {
     right: 0%;
     z-index: 5;
     display: none;
-}
+  }
 
-#list li {
+  #list li {
     max-width: 100%;
     text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.452);
     padding: 0%;
-}
+  }
 
-#list li a {
+  #list li a {
     display: inline-block;
     padding: 10px 45%;
-}
+  }
 
-.hamburger {
+  .hamburger {
     display: block;
-}
-.hamburger .line{
-  background-color: burlywood;
-}
-#about-section .about-container .article-section h2{
-  margin-top: 20px;
-  font-size: 2.8rem;
-}
-#about-section .about-container .article-section h3 {
-  font-size: 2.8rem;
-}
-#about-section .about-container .article-section ul li{
-  font-size: 1.6rem;
-  padding: 4px 8px;
-}
-#Portfolio-section .Portfolio-container .second-row{
-  margin-top: 15px;
-  padding-bottom: 40px;
-}
-#Portfolio-section .Portfolio-container .first-row .img-section:nth-child(2),
-#Portfolio-section .Portfolio-container .second-row .img-section:nth-child(2){
-  margin-top: 15px;
-}
-#Portfolio-section .Portfolio-container .first-row .img-section:nth-child(1),
-#Portfolio-section .Portfolio-container .second-row .img-section:nth-child(1){
-  padding-left: 15px;
-}
-#Portfolio-section .Portfolio-container .first-row .img-section:nth-child(2),
-#Portfolio-section .Portfolio-container .second-row .img-section:nth-child(2){
-  padding-right: 15px;
-}
-#footer-section .footer-container .contain-row .left-footer{
-  padding: 40px 15px;
-}
-}
+  }
 
-@media only screen and (max-width: 380px) {
+  .hamburger .line {
+    background-color: burlywood;
+  }
 
+  #about-section .about-container .article-section h2 {
+    margin-top: 20px;
+    font-size: 2.8rem;
+  }
+
+  #about-section .about-container .article-section h3 {
+    font-size: 2.8rem;
+  }
+
+  #about-section .about-container .article-section ul li {
+    font-size: 1.6rem;
+    padding: 4px 8px;
+  }
+
+  #Portfolio-section .Portfolio-container .second-row {
+    margin-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  #Portfolio-section .Portfolio-container .first-row .img-section:nth-child(2),
+  #Portfolio-section .Portfolio-container .second-row .img-section:nth-child(2) {
+    margin-top: 15px;
+  }
+
+  #Portfolio-section .Portfolio-container .first-row .img-section:nth-child(1),
+  #Portfolio-section .Portfolio-container .second-row .img-section:nth-child(1) {
+    padding-left: 15px;
+  }
+
+  #Portfolio-section .Portfolio-container .first-row .img-section:nth-child(2),
+  #Portfolio-section .Portfolio-container .second-row .img-section:nth-child(2) {
+    padding-right: 15px;
+  }
+
+  #footer-section .footer-container .contain-row .left-footer {
+    padding: 40px 15px;
+  }
 }
